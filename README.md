@@ -61,30 +61,7 @@ A high-performance, stateless backend REST ecosystem engineered for developers t
 
 ## 🏛️ System Architecture
 
-```mermaid
-graph TD
-    Client[Client / Mobile / Postman] -->|JWT Bearer Token| Gateway[Django REST API Gateway]
-
-    subgraph Core Services
-        Gateway --> Auth[Accounts & Auth / RBAC]
-        Gateway --> Proj[Projects & Repo Mapping]
-        Gateway --> Feed[Feed & Code Discussions]
-        Gateway --> Notif[Notifications Engine]
-    end
-
-    subgraph Data & Optimization
-        Auth --> DB[(PostgreSQL Database)]
-        Proj --> DB
-        Feed --> DB
-        Notif --> DB
-        Proj --> Filter[django-filter / Search / Pagination]
-    end
-
-    subgraph Documentation & Testing
-        Gateway --> Swagger[OpenAPI 3.0 / Swagger UI]
-        Client -.-> Postman[Postman Automated Test Suite]
-    end
-```
+![System Architecture](screenshots/System%20Architecture%20ASD.png)
 
 ---
 
