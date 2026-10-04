@@ -6,7 +6,7 @@
 [![JWT](https://img.shields.io/badge/JWT-Authentication-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 [![Postman](https://img.shields.io/badge/Postman-Automated_Tests-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
 [![OpenAPI](https://img.shields.io/badge/OpenAPI-3.0_Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://swagger.io/)
-[![Tests](https://img.shields.io/badge/Automated_Tests-25_Passed-success?style=for-the-badge&logo=pytest&logoColor=white)]()
+[![Tests](https://img.shields.io/badge/Automated_Tests-27_Passed-success?style=for-the-badge&logo=pytest&logoColor=white)]()
 
 A high-performance, stateless backend REST ecosystem engineered for developers to showcase repositories, publish code snippets, network across professional connections, and discover collaborative software projects.
 
@@ -18,7 +18,7 @@ A high-performance, stateless backend REST ecosystem engineered for developers t
 - **JWT Authentication & Role-Based Authorization (RBAC)**: Custom JWT payload claims (`username`, `email`, `role`, `headline`), access token rotation, and refresh token blacklisting on logout. Granular permission classes (`IsOwnerOrReadOnly`, `IsDeveloper`, `IsRecruiter`, `IsAdminUserOnly`).
 - **Repository Mapping & Social Network**: Rich developer profiles with tech stack skills, repository mapping (`repo_url`, `github_repo_name`, demo link), social follow graph, and two-way developer connection request lifecycle.
 - **Advanced Database Optimization & Lookups**: Server-side custom pagination (`StandardResultsSetPagination`), multi-field conditional filtering (`django-filter`), and indexing with full lookup search on titles, descriptions, tags, and skills.
-- **Automated API Testing & Postman Workflows**: Comprehensive 25+ automated test suite validating request boundaries, payload schemas, edge cases, object permissions, and HTTP status codes (200, 201, 400, 401, 403, 404).
+- **Automated API Testing & Postman Workflows**: Comprehensive 27+ automated test suite validating request boundaries, payload schemas, edge cases, object permissions, and HTTP status codes (200, 201, 400, 401, 403, 404).
 
 ---
 
